@@ -1,0 +1,47 @@
+@charset "utf-8";
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+.pagination {
+    margin: 20px 0;
+    text-align: right;
+}
+
+ .plugins-tips{
+    padding:20px 10px;
+    margin-bottom: 20px;
+  }
+
+.move-enter-active,
+.move-leave-active {
+    transition: opacity .5s;
+}
+
+.move-enter,
+.move-leave {
+    opacity: 0;
+}
+
+.form-box {
+    .line {
+        text-align: center;
+    }
+}
+
+// 不知道为什么,日历的日期显示位置会偏上一点,所以这里设置一下居中
+.el-date-table tr td{
+    line-height: 32px;
+}
+
+// Vue-Quill-Edito
+.ql-container{
+    min-height: 400px;
+}
+.ql-snow .ql-tooltip{
+    transform: translateX(117.5px) translateY(10px) !important;
+}
+.editor-btn{
+    margin-top: 20px;
+}
